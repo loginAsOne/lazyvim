@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles version="22">
+  <profile kind="CodeFormatterProfile" name="IntelliJDefault" version="1">
+    <!-- === Indentation === -->
+    <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
+    <setting id="org.eclipse.jdt.core.formatter.tabulation.size" value="4"/>
+    <setting id="org.eclipse.jdt.core.formatter.indentation.size" value="4"/>
+    <setting id="org.eclipse.jdt.core.formatter.use_tabs_only_for_leading_indentations" value="false"/>
+
+    <!-- === Line length === -->
+    <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="120"/>
+
+    <!-- === Braces === -->
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_type_declaration" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_method_declaration" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_constructor_declaration" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_block" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_block_in_case" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_switch" value="end_of_line"/>
+
+    <!-- === Spaces === -->
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_after_comma_in_method_invocation_arguments" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_after_comma_in_method_declaration_parameters" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_after_comma_in_parameterized_type_reference" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_after_comma_in_allocation_expression" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_before_opening_brace_in_type_declaration" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_before_opening_brace_in_method_declaration" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_before_opening_brace_in_constructor_declaration" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_before_opening_brace_in_block" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_after_opening_paren_in_method_invocation" value="false"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_before_closing_paren_in_method_invocation" value="false"/>
+
+    <!-- === Blank lines === -->
+    <setting id="org.eclipse.jdt.core.formatter.blank_lines_before_member_type" value="1"/>
+    <setting id="org.eclipse.jdt.core.formatter.blank_lines_before_first_class_body_declaration" value="1"/>
+    <setting id="org.eclipse.jdt.core.formatter.blank_lines_between_type_declarations" value="1"/>
+    <setting id="org.eclipse.jdt.core.formatter.blank_lines_between_import_groups" value="1"/>
+
+    <!-- === Class and method declaration === -->
+    <setting id="org.eclipse.jdt.core.formatter.align_type_members_on_columns" value="false"/>
+    <setting id="org.eclipse.jdt.core.formatter.comment.insert_new_line_before_root_tags" value="insert"/>
+  </profile>
+</profiles>
